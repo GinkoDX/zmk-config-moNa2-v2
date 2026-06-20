@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&mt EXCLAMATION Q  &kp W         &kp E         &kp R             &kp T                                                      &kp Y          &kp U  &kp I      &mt MINUS O  &lt 6 P
-&kp A              &kp S         &kp D         &kp F             &kp G                                         &trans       &kp H          &kp J  &kp K      &kp L        &lt 2 ENTER
-&mt LEFT_SHIFT Z   &kp X         &kp C         &kp V             &kp B               &trans                    &trans       &kp N          &kp M  &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
-&kp LCTRL          &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 LANG_HANGEUL  &lt_to_layer_0 3 SPACE    &lt 1 ENTER  &kp BACKSPACE                                 &kp DELETE
+&mt EXCLAMATION Q  &kp W         &kp E         &kp R             &kp T                                           &kp Y          &kp U  &kp I      &mt MINUS O  &lt 6 P
+&kp A              &kp S         &kp D         &kp F             &kp G                              &trans       &kp H          &kp J  &kp K      &kp L        &lt 2 ENTER
+&mt LEFT_SHIFT Z   &kp X         &kp C         &kp V             &kp B               &trans         &trans       &kp N          &kp M  &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
+&kp LCTRL          &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 LANG_HANGEUL  &lt 3 SPACE    &lt 1 ENTER  &kp BACKSPACE                                 &kp DELETE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -148,7 +148,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>, <&scroll_up_down>;
         };
     };
 };
