@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - {t: O, h: '-'}
-  - {t: P, h: '6'}
+  - P
   - A
   - S
   - D
@@ -108,12 +108,12 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
-  - KP 0
+  - {t: KP 0, h: LEFT SHIFT}
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
-  - '='
+  - KP EQUAL
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
@@ -136,9 +136,9 @@ layers:
   - Sft+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
-  - Sft+Ctl+TAB
+  - Ctl+PAGE UP
   - UP ARROW
-  - Ctl+TAB
+  - Ctl+PAGE DOWN
   - Gui+RIGHT ARROW
   - Ctl+HOME
   - Alt+Sft+LEFT ARROW
@@ -152,9 +152,9 @@ layers:
   - RIGHT ARROW
   - END
   - LEFT SHIFT
-  - Ctl+PAGE UP
   - {t: ▽, type: trans}
-  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Z
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
